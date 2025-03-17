@@ -1,0 +1,15 @@
+<suite name="Parallel Suite">
+    <test name="Parallel Test" parallel="methods" thread-count="3">
+        <groups>
+            <run>
+                <include name="sprint_1"/>
+                <include name="sprint_2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.samsung.AppTest"/>
+            <class name="com.samsung.FizzBuzzTest"/>
+            <class name="com.samsung.DataDrivenSampleTest"/>
+        </classes>
+    </test>
+</suite>
