@@ -1,5 +1,6 @@
 package com.samsung;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -131,5 +132,12 @@ public class StandardTextTest {
 
         //Assertion
         assertThat(actual, equalTo(expected));
+    }
+
+    @Test
+    @Disabled("Cai nay hoi kho, de lam sau")
+    public void test_nay_kho_qua_nen_bo_qua()
+    {
+
     }
 }
